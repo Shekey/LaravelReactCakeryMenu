@@ -1,0 +1,56 @@
+table {
+    width:calc(100% - 200px) !important;
+    margin: 50px;
+    padding: 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.table-striped {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% !important;
+
+        td {
+            vertical-align: middle;
+        }
+        
+        .btn-primary {
+            color: white;
+        }
+    }
+}
+
+footer {
+    margin-top: 400px;
+}
+
+.col-lg-offset-2 {
+    margin-left: 16.6667%;
+}
+
+.home {
+    text-align: center;
+
+
+    a {
+        display: block;
+        height: 60px;
+        transform: scale(1);
+        transition: transform, color 0.5s ease-in;
+        background: #4c6e8f;
+        color: white;
+        text-transform: uppercase;
+        font-size: 27px;
+
+        &:hover {
+            transition: transform, color, 0.5s ease-in;
+            transform: scale(1.1);
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .btn {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css';
+footer {
+	display: block;
+	min-height: 20px;
+	background-color: $bg-color;
+  color: $white;
+  padding: 15px 0 10px;
+	// border-top: 5px solid rgb(185, 31, 95);
+}
+
+._12 {
+	font-size: 1.2em;
+  }
+  
+  ._14 {
+		font-family: 'Dancing Script', cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-social-icons {
+    width: 100%;
+    display: block;
+    margin: 15px auto 15px;
+  }
+  
+  .social-icon {
+	color: #fff;
+  }
+  
+  ul.social-icons {
+	margin-top: 10px;
+  }
+  
+  .social-icons {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+
+  li {
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    flex-basis: 10%;
+    
+    &:hover {
+    background-color: rgb(185, 31, 95);
+
+    i {
+      background-color: rgb(185, 31, 95);
+    }
+    }
+
+    i {
+    padding: 10px 14px;
+    background-color: transparent;
+    }
+  }
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}

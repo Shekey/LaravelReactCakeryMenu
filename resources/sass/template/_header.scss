@@ -1,0 +1,103 @@
+.page-header {
+    font-family: 'Dancing Script', cursive;
+    padding: 5px 0 30px;
+    position: relative;
+  
+    a {
+      display: block;
+      color: #3d3d3d;
+  
+      &:hover,
+      &:focus {
+        color: #3d3d3d;
+      }
+    }
+  
+    .col-1 {
+      display: flex;
+    }
+  
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      width: 300px;
+      height: 5px;
+      transform: translateX(-50%);
+      border-bottom: 5px solid rgb(185, 31, 95);
+  
+      @media only screen and (min-width : 320px) and (max-width : 768px){
+        bottom: 20px;
+      }
+    }
+    h1 {
+      @media only screen and (min-width : 320px) and (max-width : 768px){
+        font-size: 30px;
+      }
+    }
+  }
+  
+  header {
+      position: relative;
+      background-color: black;
+      height: 75vh;
+      min-height: 25rem;
+      width: 100%;
+    overflow: hidden;
+    
+    @media only screen and (min-width : 320px) and (max-width : 768px){
+      height: 56vh;
+      min-height: auto;
+      
+    }
+  
+      video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: 0;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      
+      @media only screen and (min-width : 320px) and (max-width : 768px){
+        width: 100%;
+        height: 0;
+      }
+    }
+        
+      .container {
+          position: relative;
+          z-index: 2;
+    }
+        
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      background-color: rgb(117, 27, 129);
+      z-index: 1;
+  
+    }
+  
+    @media (pointer: coarse) and (hover: none) {
+      header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        
+        video {
+          display: none;
+        }
+      }
+    }
+  }
+     
+  
+    

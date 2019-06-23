@@ -43,7 +43,7 @@ class PasswordResetNotification extends Notification
      */
     public function toMail($notifiable)
     {
-        $urlToResetForm = "https://vueapp.test/vue-app/reset-password-form/?token=". $this->token;
+        $urlToResetForm = "http://127.0.0.1:8000/password/reset/". $this->token;
         return (new MailMessage)
             ->subject(Lang::getFromJson('Hey! Reset Password Notification'))
             ->line(Lang::getFromJson('You requested here you go!'))
