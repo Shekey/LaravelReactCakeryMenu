@@ -63310,8 +63310,8 @@ function (_Component4) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\PC\Desktop\LaravelVueMySqlCRUD\webdevlistapi\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\PC\Desktop\LaravelVueMySqlCRUD\webdevlistapi\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Ajdin\Desktop\LaravelReactCakeryMenu\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Ajdin\Desktop\LaravelReactCakeryMenu\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

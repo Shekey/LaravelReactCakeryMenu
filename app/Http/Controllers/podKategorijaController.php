@@ -30,7 +30,6 @@ class podKategorijaController extends Controller
         $data = $this->validate($request, [
             'title'=> 'required',
             'kategorija_id' => 'required',
-            'select_file'  => 'required|image|mimes:jpg,png,gif|max:2048'
         ]);
 
         $image = $request->file('select_file');
